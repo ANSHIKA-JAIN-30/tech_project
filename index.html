@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        header{
+            margin: auto;
+        }
+        .top{
+            padding: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            align-items: center;
+        }
+        .top img{
+            overflow: auto;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            margin-left: 40%;
+            height: 300px;
+            border-radius: 50%;
+            align-items: center;
+            border: 5px dashed rgb(27, 103, 103);
+        }
+        .top img:hover{
+            height:320px;
+            border-radius: 10%;
+        }
+        .head{
+            font-size: 40px;
+               text-align: center;
+               text-shadow: 0cqmin;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .navi {
+            background-color: rgb(27, 103, 103);
+            border-radius: 8px;
+        }
+        .navi ul {
+            overflow: auto;
+        }
+        .navi li {
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            list-style: none;
+            float: left;
+            margin: 2px;
+            padding: 10px;
+            border: 2px;
+            border-radius: 4px;
+            border-color: black;
+        }
+        .navi a {
+            text-decoration: none;
+            color: black;
+        }
+        .navi a:hover{
+            background-color: rgb(118, 185, 185);
+            border-radius: 5px;
+        }
+        .navi a:active{
+            background-color: dodgerblue;
+        }
+        .search {
+            padding: 15px 20px;
+        }
+        .navi input {
+            float: right;
+            border-radius: 5px;
+            padding: 5px;
+            border: 2px;
+        }
+        .skill{
+            background-color: rgb(200, 233, 233);
+            border-radius: 8px;
+            padding: 30px;
+            margin-top: 20px;
+            font-size: 50px;
+        }
+        .skill li{
+            text-decoration: none;
+            list-style: none;
+        }
+        .skill div{
+            border-radius: 5px;
+            background-color: rgb(27, 103, 103);
+            float: left;
+            height: 40px;
+            font-size: 30px;
+            margin: 10px;
+            color: white;
+            padding: 10px;
+        }
+        .skill div:hover{
+            background-color:rgb(255, 255, 255) ;
+            color: black;
+        }
+        .bigbox{
+            background-color: rgb(200, 233, 233);
+            border-radius: 8px;
+            padding: 30px;
+            border: 2px;
+            margin-top: 20px;
+            font-size: 40px;
+           
+        }
+        .bigbox li{
+            text-decoration: none;
+            list-style: none;
+        }
+        .bigbox div{
+            border-radius: 5px;
+            background-color: rgb(27, 103, 103);
+            float: left;
+            height: 40px;
+            margin: 20px;
+            padding: 10px;
+            font-size: 30px;
+            color: white;
+        }
+        .bigbox div:hover{
+            background-color:rgb(255, 255, 255) ;
+            color: black;
+        }
+        .about{
+            background-color: rgb(200, 233, 233);
+            border-radius: 8px;
+            text-decoration: solid;
+            padding: 40px;
+            font-size: 30px;
+            letter-spacing: 1px;
+            line-height: 40px;
+            margin-top: 20px;
+            line-gap-override: 5px;
+        }
+        .icon{
+            background-color: rgb(200, 233, 233);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .mail{
+            text-align: center;
+            font-size: 20px;
+        }
+        .icon .iconlist{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        .icon img{
+            height: 3em;
+            margin: 1em;
+            padding: 0.8em;
+        }
+        .iconlist img:hover{
+            background-color: rgb(25, 69, 69);
+            border-radius: 5px;
+        }
+        .icon .details{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+        }
+        .icon .c{
+            border: 2px solid black;
+            border-radius: 50%;
+            display: inline;
+            padding: 20px;
+            margin: -10px;
+        }
+        .details li:hover{
+            background-color: rgb(25, 69, 69);
+            border-radius: 5px;
+        }
+        .details li{
+            font-size: 40px;
+            margin: 20px;
+        }
+        .last{
+            text-align: center;
+        }
+        .design{
+            display: flex;
+            align-items: center;
+            margin-left: 45%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>    
+        <nav class="navi">
+            <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#ab"> About</a></li>
+                <li><a href="#sk"> Skills</a></li>
+                <li><a href="#pr"> Projects</a></li>
+                <li><a href="#co"> contact us</a></li>
+                <div class="search">
+                    <input type="search" name="search" id="search " placeholder="search box">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="top"><img src="C:\Users\anshi\OneDrive\Documents\WhatsApp Image 2023-06-30 at 03.12.56.jpg" alt="photo">
+            <h1 class="head">ANSHIKA JAIN</h1>
+        </div>
+        <div class="about" id="ab">
+            I am Anshika Jain, a dedicated and motivated student eager to make a positive impact in web Designing. Through this portfolio, I aim to showcase my skills, passion, and potential.
+        </div>
+        <div class="skill" id="sk">
+            <p>
+                Skills:
+                <ul>
+                    <LI><DIV>HTML</DIV></LI>
+                    <LI><DIV>CSS</DIV></LI>
+                    <LI><DIV>JAVA SCRIPT</DIV></LI>
+                    <LI><DIV>GRAPHIC DESIGN</DIV></LI>
+                    <LI><DIV>UI/UX DESIGN</DIV></LI>
+
+                </ul>  
+                <br>
+                <ul>
+                    <LI><DIV>ADOBE CREATIVE SUITE</DIV></LI>
+                    <LI><DIV>C LANGUAGE</DIV></LI>
+                    <LI><DIV>JAVA</DIV></LI>
+                    <LI><DIV>PYTHON</DIV></LI>
+                </ul>
+                <br>
+            </p>
+        </div>
+
+        <script >
+            // Smooth scrolling on anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+        
+            const targetSection = document.querySelector(this.getAttribute('href'));
+            targetSection.scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+        
+          </script>
+        <div class="bigbox" id="pr">
+            <p>MY PROJECTS:</p>
+            <ul>
+                <LI><div>PROJECT 1</div></LI>
+                <LI><div>PROJECT 2</div></LI>
+                <LI><div>PROJECT 3</div></LI>
+                <LI><div>PROJECT 4</div></LI>
+            </ul>
+            <br>
+            <br>
+        </div>
+    </main>
+    <footer>
+        <div class="icon" id="co">
+           <p class="mail">MAIL ID: 2103010031@ipec.org.in</p> 
+            <ul class="iconlist">
+                <li><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="googler"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="instagram icon"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="whatsapp icon"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt="facebook"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png?20220821125553" alt="twitter"></li>
+            </ul>
+            
+            <h4 class="last">Copyrights &copy; 2023; Designed by Anshika</h4>
+            <br>
+            <div class="design">
+               <div class="c" ></div>
+               <div class="c" ></div>
+               <div class="c" ></div>
+               <div class="c" ></div>
+               <div class="c" ></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
